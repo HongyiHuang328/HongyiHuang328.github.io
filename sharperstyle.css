@@ -52,8 +52,8 @@ a:hover, a:active {
 
 
 #header {
-  background-color:blue;
-  color:white;
+  background-color:white;
+  color:black;
   margin:0px;
   padding-top:0px;
   padding-bottom:0px;
@@ -61,8 +61,8 @@ a:hover, a:active {
 }
 
 #nav {
-  background-color:blue;
-  color:white;
+  background-color:white;
+  color:black;
   margin:0px;
   padding:0px;
   height:85px;
