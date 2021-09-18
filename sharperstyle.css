@@ -137,8 +137,13 @@ a:hover, a:active {
   text-decoration:none;
 }
 
-#nav li a:link, #nav li a:visited {
+#nav li a:link {
   color:blue;
+  text-decoration:none;
+}
+
+#nav li a:visited {
+  color:purple;
   text-decoration:none;
 }
 
