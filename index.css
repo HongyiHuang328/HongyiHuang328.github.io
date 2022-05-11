@@ -35,7 +35,7 @@ ul {
     background-color: #f1f1f1;
 }
  
-li a {
+lin a {
     display: block;
     color: #000;
     padding: 8px 16px;
@@ -43,7 +43,7 @@ li a {
 }
  
 /* 鼠标移动到选项上修改背景颜色 */
-li a:hover {
+lin a:hover {
     background-color: #555;
     color: white;
 }
