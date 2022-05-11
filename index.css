@@ -57,12 +57,13 @@ ol {
   flex-direction: column-reverse;
 }
 
-ol>li:before {
-  display:inline-block;
-  width:1.7em;
-  padding-right:1.3em;
-  margin-right:0em;
-  font-weight:bold;
-  text-align:right;
-  content:counter(item);
+ol>li {
+  list-style-type:none;
+  counter-increment:item;
+  border-left:5px solid;
+  margin-bottom:15px;
+  padding:0px;
+  padding-left:0.7em;
+  margin-left:1.8em;
+  text-indent:-3.33em;
 }
