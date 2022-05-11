@@ -53,11 +53,6 @@ lin a:hover {
     color: white;
 }
 
-div.desc, div.list {
-  margin:0px;
-  padding:0px;
-}
-
 ol {
   margin:0 0 1.5em;
   padding:0px;
@@ -75,4 +70,12 @@ ol>li {
   padding-left:0.7em;
   margin-left:1.8em;
   text-indent:-3.33em;
+}
+
+div.desc ol, div.list ol {
+  overflow:hidden;
+  margin:0px;
+  padding:0px;
+  margin-bottom:-5px;
+  list-style-type:none;
 }
