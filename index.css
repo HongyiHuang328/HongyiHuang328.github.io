@@ -56,3 +56,13 @@ ol {
   display: flex;
   flex-direction: column-reverse;
 }
+
+ol>li:before {
+  display:inline-block;
+  width:1.7em;
+  padding-right:1.3em;
+  margin-right:0em;
+  font-weight:bold;
+  text-align:right;
+  content:counter(item);
+}
