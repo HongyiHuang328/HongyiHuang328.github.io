@@ -65,7 +65,6 @@ ol {
 ol>li {
   list-style-type:none;
   counter-increment:item;
-  border-left:5px solid;
   margin-bottom:15px;
   padding:0px;
   padding-left:0.7em;
