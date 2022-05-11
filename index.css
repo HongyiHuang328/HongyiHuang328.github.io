@@ -54,34 +54,3 @@ lin a:hover {
     color: white;
 }
 
-ol {
-  margin:0 0 1.5em;
-  padding:0px;
-  margin-bottom:-5px;
-  counter-reset:item;
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-ol>li {
-  list-style-type:none;
-  counter-increment:item;
-  margin-bottom:15px;
-  padding:0px;
-  padding-left:0.7em;
-  margin-left:1.8em;
-  text-indent:-3.33em;
-  border-left:5px;
-  content:counter(item);
-}
-
-div.desc ol, div.list ol {
-  margin:0px;
-  padding:0px;
-  margin-bottom:-5px;
-}
-
-div.list ol>li, div.desc ol>li {
-  padding-left:30px;
-  margin-bottom:15px;
-}
