@@ -71,6 +71,7 @@ ol>li {
   padding-left:0.7em;
   margin-left:1.8em;
   text-indent:-3.33em;
+  border-left:5px;
 }
 
 div.desc ol, div.list ol {
