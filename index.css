@@ -81,6 +81,6 @@ div.desc ol, div.list ol {
 }
 
 div.list ol>li, div.desc ol>li {
-  padding-left:100px;
+  padding-left:10px;
   margin-bottom:15px;
 }
