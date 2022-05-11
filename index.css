@@ -81,7 +81,7 @@ div.desc ol, div.list ol {
   list-style-type:none;
 }
 
-div.list ol li, div.desc ol li {
+div.list ol>li, div.desc ol>li {
   padding-left:10px;
   margin-bottom:15px;
 }
