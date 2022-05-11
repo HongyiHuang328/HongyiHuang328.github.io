@@ -77,7 +77,6 @@ div.desc ol, div.list ol {
   margin:0px;
   padding:0px;
   margin-bottom:-5px;
-  list-style-type:none;
 }
 
 div.list ol>li, div.desc ol>li {
