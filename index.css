@@ -42,10 +42,11 @@ lin a {
     text-decoration: none;
 }
 
-a:link {
+a:link, a:visited, a:hover, a:active {
  text-decoration:none; 
  color:#cc0000;
 }
+
  
 /* 鼠标移动到选项上修改背景颜色 */
 lin a:hover {
