@@ -1,53 +1,40 @@
-
 <!DOCTYPE html>
-<html lang="en-GB">
-
-
+<html>
 <head>
+    <meta charset="utf-8">
+    <base target="_self">
+    <link rel="stylesheet" type="text/css" href="index.css">
 
-  <title>
-    Hong Yi Huang
-  </title>
-
-  <meta charset="UTF-8">
-
-  <meta name="author" content="Hong Yi Huang">
-
-  <meta name="viewport" content="width=250">
-
-  <link href="sharperstyle.css" rel="stylesheet" type="text/css">
-
- 
-
-  <script type="text/javascript">
-    function gen_mail_to_link(lhs,rhs,subject) {
-      document.write("<a href=\"mailto");
-      document.write(":" + lhs + "@");
-      document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/a>");
-    }
+    <! 引用数学公式编译器mathjax>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
-
+  <title>Hong Yi Huang</title>
 </head>
 
-  
-  <body>
-    
-    <div id="header">
-    <h1> Hong Yi Huang </h1>
-  </div>
+<body>
+<header>
+    <h1>Hong Yi Huang</h1>
 
+</header>
+<hr/>
 
- <div id="nav">
-    <ul>
-      <li> <a href="index.html">Homepage</a>  </li>
-      <li> <a href="research.html">Research</a>  </li>
-      <li> <a href="teaching.html">Teaching</a>  </li>
-      <li> <a href="meetings.html">Meetings</a>  </li>
-      <li> <a href="talks.html">Talks</a>  </li>
-    </ul>
-  </div>
-    
-    <div id="content">
+<div class="row">
+
+    <div class="column left">
+        <! 导航栏>
+        <ul>
+            <lin><a href="index.html">Home</a></lin>
+            <lin><a href="research.html">Research</a></lin>
+            <lin><a href="meetings.html">Meetings</a></lin>
+            <lin><a href="talks.html">Talks</a></lin>
+            <lin><a href="teaching.html">Teaching</a></lin>
+        </ul>
+    </div>
+
+    <div class="column right">
+        <! 正文部分>
       
       <h2> Talks </h2>
 
@@ -107,3 +94,5 @@
     
     
   </body>
+
+</html>
