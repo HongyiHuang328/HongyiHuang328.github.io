@@ -72,6 +72,7 @@ ol>li {
   margin-left:1.8em;
   text-indent:-3.33em;
   border-left:5px;
+  content:counter(item);
 }
 
 div.desc ol, div.list ol {
