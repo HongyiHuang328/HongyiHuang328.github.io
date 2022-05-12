@@ -55,6 +55,17 @@ lin a:hover {
 }
 
 ol {
-  padding-left: 30px;
+  margin:0 0 1.5em;
+  padding:0px;
+  margin-bottom:-5px;
+  counter-reset:item;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+ol>li {
+  counter-increment:item;
+  margin-bottom:15px;
+  padding-left:30px;
 }
 
