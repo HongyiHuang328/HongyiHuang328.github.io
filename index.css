@@ -66,5 +66,5 @@ ol {
 ol>li {
   counter-increment:item;
   margin-bottom:15px;
-  
+  content:counter(item);
 }
