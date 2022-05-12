@@ -55,9 +55,7 @@ lin a:hover {
 }
 
 ol {
-  margin:0 0 1.5em;
-  padding:0px;
-  margin-bottom:-5px;
+  
   counter-reset:item;
   display: flex;
   flex-direction: column-reverse;
