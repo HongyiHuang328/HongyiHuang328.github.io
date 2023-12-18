@@ -66,13 +66,13 @@ ol {
 ol>li {
   counter-increment:item;
   margin-bottom:15px;
-  
+  font-family:"Times New Roman",Times,serif;
 }
 
 ul>li {
   counter-increment:item;
   margin-bottom:15px;
-  
+  font-family:"Times New Roman",Times,serif;
 }
 
 
