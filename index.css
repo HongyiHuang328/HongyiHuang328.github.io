@@ -59,8 +59,8 @@ ol {
   padding:0px;
   counter-increment:item;
   margin-bottom:-5px;
-  counter-reset:item;
-  /* display: flex; */
+  /* counter-reset:item; */
+  display: flex;
   flex-direction: column-reverse;
   font-family:"Times New Roman",Times,serif;
 }
